@@ -22,7 +22,8 @@ public class LambdaExercises {
         // () parenthesis - arguments list
         // -> arguments, body separator
         // {} parenthesis - method body
-        //lambda jest metodą anoniową
+        //lambda jest metodą anoniową ale pociąga za sobą definicję klasy
+        //jeśli w interfejsie mamy więcej niż jedną metodę - lambda nie działa
 
         BoysDontCry firstLambda = () -> {};
         BoysDontCry secondLambda = () -> System.out.println("Lambda:)");
