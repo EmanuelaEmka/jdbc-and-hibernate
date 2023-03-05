@@ -25,7 +25,8 @@ public class LambdaExercises {
         //lambda jest metodą anoniową ale pociąga za sobą definicję klasy
         //jeśli w interfejsie mamy więcej niż jedną metodę - lambda nie działa
 
-        BoysDontCry firstLambda = () -> {};
+        BoysDontCry firstLambda = () -> {
+        };
         BoysDontCry secondLambda = () -> System.out.println("Lambda:)");
         secondLambda.silnoreki();
         BoysDontCry thirdLambda = () -> {

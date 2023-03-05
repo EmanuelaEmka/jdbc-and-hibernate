@@ -10,5 +10,6 @@ public interface BoysDontCry {
     //można dodać drugą metodę, ale musi być defaultowa- musi mieć ciało
     //anonimowa nie ma ciała!!
 
-    default void cry() {};
+    default void cry() {
+    }
 }
