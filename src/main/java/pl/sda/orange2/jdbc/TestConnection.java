@@ -6,6 +6,10 @@ import java.sql.*;
 
 public class TestConnection {
     public static void main(String[] args) {
+
+        String className = TestConnection.class.getName();
+        System.out.println("Current class name is: " + className);
+
         String query = """
                 SELECT ID, NAME
                 FROM TEST
